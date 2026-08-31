@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: 192.168.88.139/library/sample-app:16
+        image: 192.168.88.139/library/sample-app:18
         ports:
         - containerPort: 8080
 ---
