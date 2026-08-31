@@ -24,6 +24,6 @@ spec:
     spec:
       containers:
       - name: argo-rollout-sample-app
-        image: 192.168.88.139/library/sample-app:14 # Jenkins가 이 태그를 자동으로 치환합니다.
+        image: 192.168.88.139/library/sample-app:1
         ports:
         - containerPort: 8080
