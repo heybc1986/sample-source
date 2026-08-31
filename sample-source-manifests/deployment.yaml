@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: 192.168.88.139/library/sample-app:1 # 👈 Jenkins가 이 태그 번호를 자동으로 바꿀 것입니다.
+        image: 192.168.88.139/library/sample-app:15
         ports:
         - containerPort: 8080
 ---
