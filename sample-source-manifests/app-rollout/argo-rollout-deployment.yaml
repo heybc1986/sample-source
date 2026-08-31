@@ -24,6 +24,6 @@ spec:
     spec:
       containers:
       - name: argo-rollout-sample-app
-        image: 192.168.88.139/library/sample-app:3
+        image: 192.168.88.139/library/sample-app:4
         ports:
         - containerPort: 8080
